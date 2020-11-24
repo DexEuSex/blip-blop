@@ -1,0 +1,188 @@
+.main-background
+{
+	background-color: #353a40;
+}
+
+.block
+{
+	text-align: center;
+	background-color: #C0C0C0;
+	margin: 20px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
+
+.block:hover
+{
+	background-color: #ADD8E6;
+}
+
+.fa-biohazard 
+{ 
+ 	color: green;
+ 	padding: 20px;
+}
+
+.fa-bacterium
+{
+ 	color: green;
+ 	padding: 20px;
+}
+
+.fa-capsules
+{
+ 	color: green;
+ 	padding: 20px;
+}
+
+.fa-radiation
+{
+ 	color: green;
+ 	padding: 20px;
+}
+
+.fa-dna
+{
+ 	color: green;
+ 	padding: 20px;
+}
+
+.fa-viruses
+{
+ 	color: green;
+ 	padding: 20px;
+}
+
+.fa-cog
+{
+ 	color: green;
+ 	padding: 20px;
+}
+
+.table-background
+{
+	background-color: grey;
+	padding: 50px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	margin-top: 40px;
+}
+
+.second-table
+{
+	background-color: grey;
+	padding: 50px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	margin-top: 40px;
+	border-collapse: collapse;
+}
+
+.cell-style-one
+{
+	border: 1px solid #fff;
+	text-align: left;
+	min-width: 200px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 1px solid #696969;
+	border-bottom: 1px solid black;
+}
+
+.cell-style-two
+{
+	background-color: #C0C0C0;
+	border: 1px solid #fff;
+	text-align: left;
+	min-width: 200px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 1px solid #696969;
+	border-right: 1px solid black;
+}
+
+.cell-style-three
+{
+	background-color: #F5F5F5;
+	border: 1px solid #fff;
+	text-align: left;
+	min-width: 200px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 1px solid #696969;
+	text-align: right;
+}
+
+
+
+.fa-ul 
+{
+  padding-left: 0;
+  margin-left: $fa-li-width;
+  list-style-type: none;
+  > li { position: relative; }
+}
+
+.fa-li 
+{
+  position: absolute;
+  left: -$fa-li-width;
+  width: $fa-li-width;
+  top: (2em / 14);
+  text-align: center;
+  &.#{$fa-css-prefix}-lg {
+    left: -$fa-li-width + (4em / 14);
+  }
+}
+
+.fa-bug
+{
+	color: #006400;
+}
+
+.fa-fingerprint
+{
+	color: #8B0000;
+}
+
+.fa-eye
+{
+	color: #800080;
+}
+
+.fa-power-off
+{
+	color: #0000CD;
+}
+
+.text
+{
+	color: #D3D3D3;
+	font-family: Gill Sans, sans-serif;
+}
+.textSecond
+{
+	font-family: Gill Sans, sans-serif;
+	font-size: 30px;
+}
+blockquote 
+{
+    background: #C0C0C0; 
+    border-left: 3px solid #006400; 
+    padding: 1em; 
+}
+blockquote::before,
+blockquote::after 
+{
+    content: "«"; 
+    font-size: 20px;
+    font-family: Gill Sans, sans-serif;
+    color: #006400; 
+    line-height: 0;
+}
+blockquote::after 
+{
+    content: "»"; 
+}
+blockquote:hover
+{
+	background-color: #ADD8E6;
+}
